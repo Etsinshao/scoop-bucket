@@ -17,7 +17,6 @@
         }
     },
     "bin": [
-        "chrome.exe",
         [
             "chrome.exe",
             "chromium",
