@@ -20,8 +20,8 @@
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
     "bin": [
-	"chrome.exe",
-	[
+        "chrome.exe",
+        [
             "chrome.exe",
             "google-chrome",
             "--user-data-dir=\"$dir\\User Data"
