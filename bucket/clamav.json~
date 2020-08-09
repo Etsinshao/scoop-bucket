@@ -17,7 +17,7 @@
     },
     "bin": [
         "clambc.exe",
-        "clamconf.exe",
+	"clamconf.exe",
         "clamd.exe",
         "clamdscan.exe",
         "clamscan.exe",
