@@ -6,13 +6,11 @@
     "architecture": {
         "32bit": {
             "url": "https://www.clamav.net/downloads/production/clamav-0.102.4-win-x86-portable.zip",
-            "hash": "",
-            "extract_dir": "clamav-0.102.4-win-x86-portable"
+            "hash": ""
         },
         "64bit": {
             "url": "https://www.clamav.net/downloads/production/clamav-0.102.4-win-x64-portable.zip",
-            "hash": "",
-            "extract_dir": "clamav-0.102.4-win-x64-portable"
+            "hash": ""
         }
     },
     "bin": [
@@ -22,14 +20,19 @@
         "clamdscan.exe",
         "clamscan.exe",
         "clamsubmit.exe",
-        "freshclan.exe",
+        "freshclam.exe",
         "sigtool.exe"
+    ],
+    "pre_install": [
+        "Set-Content \"$dir\\clamd.conf\" '#' -Encoding Ascii",
+	"Set-Content \"$dir\\freshclam.conf\" '#' -Encoding Ascii"
+
     ],
     "persist": [
         "conf_examples",
         "database",
         "clamd.conf",
-        "freshcllam.conf"
+        "freshclam.conf"
     ],
     "checkver": "github",
     "autoupdate": {
