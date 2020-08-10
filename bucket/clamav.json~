@@ -34,7 +34,7 @@
         "clamd.conf",
         "freshclam.conf"
     ],
-    "checkver": "",
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
