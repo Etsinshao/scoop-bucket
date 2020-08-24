@@ -16,21 +16,24 @@
             "hash": "71977090686b973bfcc1ce81be99a8058ccb97d05e28bf468bfdcfeffb9f003e"
         }
     },
-    "installer": {
-        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
-    },
+    "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal",
     "bin": [
         [
             "chrome.exe",
+            "chrome",
+            "--user-data-dir=\"$dir\\User Data\""
+        ],
+        [
+            "chrome.exe",
             "google-chrome",
-            "--user-data-dir=\"$dir\\User Data"
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
             "Google Chrome",
-            "--user-data-dir=\"$dir\\User Data"
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "persist": "User Data",
