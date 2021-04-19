@@ -1,16 +1,16 @@
 {
-    "version": "87.0",
+    "version": "88.0",
     "description": "Popular open source web browser",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/87.0/win64/en-US/Firefox%20Setup%2087.0.exe#/dl.7z",
-            "hash": "sha512:d2126add79e3ddbd87e79f73b7700b65b33cd1f9f8a4ccdb10cad968942111f0b10206e488f20d532e678eb571cac91ab37c8d127638ba69e29b89f724a2a2fc"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/88.0/win64/en-US/Firefox%20Setup%2088.0.exe#/dl.7z",
+            "hash": "sha512:30326d84d543c1405dde28f698be80c4116dfc7f313731bd26f675dd0a02370a9d5bc8d6a552fb78bba6cbeba2bba7e074a9f8290df2fe7d2b4864c729ce2e34"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/87.0/win32/en-US/Firefox%20Setup%2087.0.exe#/dl.7z",
-            "hash": "sha512:d2126add79e3ddbd87e79f73b7700b65b33cd1f9f8a4ccdb10cad968942111f0b10206e488f20d532e678eb571cac91ab37c8d127638ba69e29b89f724a2a2fc"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/88.0/win32/en-US/Firefox%20Setup%2088.0.exe#/dl.7z",
+            "hash": "sha512:30326d84d543c1405dde28f698be80c4116dfc7f313731bd26f675dd0a02370a9d5bc8d6a552fb78bba6cbeba2bba7e074a9f8290df2fe7d2b4864c729ce2e34"
         }
     },
     "extract_dir": "core",
