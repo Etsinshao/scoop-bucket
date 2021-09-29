@@ -1,10 +1,10 @@
 {
-    "version": "2.3.5",
+    "version": "2.4.8",
     "description": "A note taking and to-do application with synchronization capabilities",
     "homepage": "https://joplinapp.org",
     "license": "MIT",
-    "url": "https://github.com/laurent22/joplin/releases/download/v2.3.5/JoplinPortable.exe",
-    "hash": "719c949839fc489eb8a94a0489ea4f0948b8c9857f20ee26f7e94272a39c600d",
+    "url": "https://github.com/laurent22/joplin/releases/download/v2.4.8/JoplinPortable.exe",
+    "hash": "ef12895e0cdf5f56863f217c87bd600921647d6ecfcb902ebacaad7465df2017",
     "bin": "JoplinPortable.exe",
     "shortcuts": [
         [
