@@ -1,16 +1,16 @@
 {
-    "version": "97.0.2",
+    "version": "98.0",
     "description": "Popular open source web browser",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/97.0.2/win64/en-US/Firefox%20Setup%2097.0.2.exe#/dl.7z",
-            "hash": "sha512:32e705aa6901c81bc131ddcc1719e0f868cbee021854fff9d6ed06d1fbd8fd40c20281f1220a74b4625b8dbdc43f9e3115dd2300be58d2a7165a39e993ad9d90"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0/win64/en-US/Firefox%20Setup%2098.0.exe#/dl.7z",
+            "hash": "sha512:240a4b7bb627fb21734c658bccf10d22ff45a6fff89e15ebe84aadb97a5fe0a845b62a39f16ae7a20c4be3ab8b9914dedf9b2f5856166043969f51e92d52d847"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/97.0.2/win32/en-US/Firefox%20Setup%2097.0.2.exe#/dl.7z",
-            "hash": "sha512:32e705aa6901c81bc131ddcc1719e0f868cbee021854fff9d6ed06d1fbd8fd40c20281f1220a74b4625b8dbdc43f9e3115dd2300be58d2a7165a39e993ad9d90"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/98.0/win32/en-US/Firefox%20Setup%2098.0.exe#/dl.7z",
+            "hash": "sha512:240a4b7bb627fb21734c658bccf10d22ff45a6fff89e15ebe84aadb97a5fe0a845b62a39f16ae7a20c4be3ab8b9914dedf9b2f5856166043969f51e92d52d847"
         }
     },
     "extract_dir": "core",
